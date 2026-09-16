@@ -1,0 +1,31 @@
+﻿evaluation_id,prompt,sample_ai_response,meaning_accuracy,grammar,naturalness,diacritics_orthography,context,cultural_appropriateness,instruction_following,overall_score,error_category,corrected_response,evaluator_note,source
+YRE-001,Translate: I want to drink water.,Mo fẹ́ jẹ omi.,2,4,2,4,5,5,5,2,Meaning mismatch,Mo fẹ́ mu omi.,The verb 'jẹ' does not express drinking here; 'mu' is required.,Synthetic portfolio example
+YRE-002,Translate: I want to eat.,Mo fẹ́ jẹun.,5,5,5,5,5,5,5,5,None,Mo fẹ́ jẹun.,"Accurate, natural everyday Yoruba.",Synthetic portfolio example
+YRE-003,Translate: I want to play.,Mo fẹ́ ṣeré.,5,5,5,5,5,5,5,5,None,Mo fẹ́ ṣeré.,Simple and suitable for a child.,Synthetic portfolio example
+YRE-004,Translate: I want to read a book.,Mo fẹ́ kọ́ ìwé.,3,2,3,5,5,5,5,3,Verb/meaning,Mo fẹ́ ka ìwé.,'Ka ìwé' expresses reading; 'kọ́' does not fit this intended meaning.,Synthetic portfolio example
+YRE-005,Translate: I want to sleep.,Mo fẹ́ sùn.,5,5,5,5,5,5,5,5,None,Mo fẹ́ sùn.,Accurate basic sentence.,Synthetic portfolio example
+YRE-006,Translate: I want to brush my teeth.,Mo fẹ́ fọ aṣọ mi.,2,4,2,5,5,5,5,2,Meaning mismatch,Mo fẹ́ fọ eyín mi.,The response refers to washing clothes rather than brushing teeth.,Synthetic portfolio example
+YRE-007,Translate: I want to wear my shoes.,Mo fẹ́ yọ bàtà mi.,2,4,2,5,5,5,5,2,Meaning mismatch,Mo fẹ́ wọ bàtà mi.,'Yọ' expresses removing; 'wọ' expresses wearing.,Synthetic portfolio example
+YRE-008,Translate: I want to go outside.,Mo fẹ́ lọ sí ilé.,2,4,2,5,5,5,5,2,Meaning mismatch,Mo fẹ́ lọ síta.,"The response means going to the house/home, not going outside.",Synthetic portfolio example
+YRE-009,Translate: My name is Tunde.,Mo fẹ́ Tunde.,2,4,3,5,5,5,5,2,Meaning mismatch,Orúkọ mi ni Tunde.,The response changes the meaning to wanting/liking Tunde.,Synthetic portfolio example
+YRE-010,Translate: I am from Nigeria.,Mo ń gbé Nàìjíríà.,3,3,3,5,5,5,5,3,Grammar/meaning,Mo wá láti Nàìjíríà.,"The intended meaning is origin, while the response attempts to express residence.",Synthetic portfolio example
+YRE-011,Translate: I live in Lagos.,Mo wá láti Lagos.,3,5,4,5,5,5,5,3,Meaning mismatch,Mo ń gbé ní Lagos.,'Wá láti' expresses being from a place rather than living there.,Synthetic portfolio example
+YRE-012,Translate: I went to the market yesterday.,Mo máa lọ sí ọjà lánàá.,3,4,3,5,5,5,5,3,Tense/aspect,Mo lọ sí ọjà lánàá.,The simple past event is more directly expressed without 'máa' in this sentence.,Synthetic portfolio example
+YRE-013,Translate: The child is eating.,Ọmọ náà máa jẹun.,3,5,3,5,5,5,5,3,Tense/aspect,Ọmọ náà ń jẹun.,'Ń' is used here to express the ongoing action.,Synthetic portfolio example
+YRE-014,Translate: She is sleeping.,Ó máa sùn.,3,5,3,5,5,5,5,3,Tense/aspect,Ó ń sùn.,The response does not directly express the ongoing action requested.,Synthetic portfolio example
+YRE-015,Translate: I like this food.,Mo fẹ́ oúnjẹ yìí.,4,5,4,5,5,5,5,4,Meaning nuance,Mo fẹ́ràn oúnjẹ yìí.,The correction more clearly expresses 'like/love' rather than simply want.,Synthetic portfolio example
+YRE-016,Translate: What do you want to eat?,Kí ni o fẹ́ mu?,3,5,4,5,5,5,5,3,Verb/meaning,Kí ni o fẹ́ jẹ?,The response asks what the person wants to drink rather than eat.,Synthetic portfolio example
+YRE-017,Translate: I am hungry.,Mo ń sùn.,1,5,1,5,5,5,5,1,Meaning mismatch,Ebi ń pa mí.,"The response means 'I am sleeping,' not 'I am hungry.'",Synthetic portfolio example
+YRE-018,Translate: I am tired.,Mo nífẹ̀ẹ́ rẹ.,1,5,1,5,5,5,5,1,Meaning mismatch,Ó rẹ̀ mí.,The response expresses affection rather than tiredness.,Synthetic portfolio example
+YRE-019,Translate: I don't understand.,Mo mọ̀.,1,5,2,5,5,5,5,1,Meaning mismatch,Mi ò yé mi.,"The response means 'I know,' which reverses the intended meaning.",Synthetic portfolio example
+YRE-020,Translate: I am happy.,Inú mi dùn.,5,5,5,5,5,5,5,5,None,Inú mi dùn.,Accurate and natural expression.,Synthetic portfolio example
+YRE-021,Translate: Good morning.,Ẹ káàárọ̀.,5,5,5,5,5,5,5,5,None,Ẹ káàárọ̀.,Appropriate common greeting.,Synthetic portfolio example
+YRE-022,Translate: Good afternoon.,Ẹ káàsán.,5,5,5,5,5,5,5,5,None,Ẹ káàsán.,Appropriate common greeting.,Synthetic portfolio example
+YRE-023,Translate: Welcome.,Ẹ káàbọ̀.,5,5,5,5,5,5,5,5,None,Ẹ káàbọ̀.,Appropriate greeting/welcome expression.,Synthetic portfolio example
+YRE-024,Translate: Thank you.,Ẹ ṣé.,5,5,5,5,5,5,5,5,None,Ẹ ṣé.,Common polite expression of thanks.,Synthetic portfolio example
+YRE-025,Translate: Please.,Jọ̀wọ́.,5,5,5,5,5,5,5,5,None,Jọ̀wọ́.,Common polite request marker.,Synthetic portfolio example
+YRE-026,Give a child a simple way to say: I want to play.,Mo fẹ́ ṣe eré ìdárayá.,4,4,3,5,5,5,5,4,Naturalness/child suitability,Mo fẹ́ ṣeré.,The response is understandable but less simple and less direct for a beginner child.,Synthetic portfolio example
+YRE-027,Translate: I am ten years old.,Mo jẹ́ ọmọ ọdún mẹ́wàá.,5,5,5,5,5,5,5,5,None,Mo jẹ́ ọmọ ọdún mẹ́wàá.,Accurate age expression.,Synthetic portfolio example
+YRE-028,Translate: This is my mother.,Eyi ni ìyá mi.,5,5,5,4,5,5,5,5,Orthography/diacritic,Èyí ni ìyá mi.,The diacritic on 'Èyí' should be preserved in formal Yoruba orthography.,Synthetic portfolio example
+YRE-029,Translate: I want to drink water.,Mo fe mu omi.,5,5,5,2,5,5,5,4,Missing diacritics,Mo fẹ́ mu omi.,"Meaning is recoverable, but Yoruba tone/diacritic marks are omitted.",Synthetic portfolio example
+YRE-030,Translate: I am from Nigeria.,Mo wa lati Naijiria.,5,4,4,2,5,5,5,4,Missing diacritics,Mo wá láti Nàìjíríà.,"The meaning is understandable, but formal Yoruba writing benefits from correct tone marks/diacritics.",Synthetic portfolio example
